@@ -1,0 +1,27 @@
+ASELCOV è il SW che va automatizzato
+CONV non so bene cosa sia ma Mindert dice che deve essere presente nella directory
+NPD è il file GCODE da convertire che generiamo
+NPD.cl viene generato anch'esso insieme al GCODE
+NPDV è il GCODE dopo la conversione
+
+i passaggi che svolgiamo in ASELCOV (su win 32bit) sono
+
+APERTURA SW
+INVIO
+F2
+NOME DEL FILE DA CONVERTIRE (NPD) 
+INVIO
+NOME DEL FILE DOPO LA CONVERSIONE (NPDV)
+INVIO
+INVIO
+EXIT
+
+tutti i file devono trovarsi nella stessa directory
+
+-
+
+Quello che vorremmo, è automatizzare questo processo in modo che, nel momento in cui inseriamo (magari in rete) il file (NPD in questo caso) nella directory
+tutti i passaggi avvengano autonomamente.
+
+Va inoltre aggiunto che fino ad ora siamo riusciti ad utilizzare questo programma solo su Win32 bit (il computer da automatizzare monta Win98)
+
